@@ -1,0 +1,15 @@
+.box{
+            height: 100px;
+            width: 100px;
+            background-color: cyan;
+            text-align: center;
+            margin: 15px;
+            border: 5px solid black;
+            border-radius: 10px;
+
+            
+        }
+
+#div2{
+    display: none;
+}        

@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    padding: 20px;
+}
+
+@media  screen and (width: 400px) {
+
+    .box{
+        background-color: cornflowerblue;
+        
+    }
+    
+}

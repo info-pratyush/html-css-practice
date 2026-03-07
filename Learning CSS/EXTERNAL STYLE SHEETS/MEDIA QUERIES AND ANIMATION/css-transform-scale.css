@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 100px;
+    /* background-color: darkorange; */
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    top: 50px;
+    left: 200px;
+    position: relative;
+
+     transition-property: all; 
+    transition-timing-function: ease-in-out;
+    
+    /* transition-delay: 1s;k */
+    transition-duration: 1s;
+}
+
+
+
+#box1:hover{
+    transform: scale(2);
+    background-color: aqua;
+}
+
+#box2:hover{
+    transform: scale(3);
+    background-color: crimson;
+}
+
+#box3:hover{
+    transform: scaleX(2);
+    background-color: darksalmon;
+}
+
+#box4:hover{
+    transform: scale(-2);
+    background-color: cornflowerblue;
+}

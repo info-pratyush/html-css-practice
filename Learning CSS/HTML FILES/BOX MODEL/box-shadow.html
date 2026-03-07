@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX SHADOW</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            margin: 20px;
+        }
+        #one{
+            box-shadow: -5px 5px ;
+            -webkit-box-shadow: -5px 5px ;
+        }
+        #two{
+            box-shadow: 5px 5px;
+            -webkit-box-shadow: 5px 5px;
+        }
+        #three{
+            box-shadow: 0 0 5px 5px ;
+            -webkit-box-shadow: 0 0  5px 5px ;
+        }
+        #four{
+            box-shadow: inset 0 0 20px;
+            -webkit-box-shadow:inset 0 0 20px;
+        }
+        #five{
+            box-shadow: 0 0 20px;
+            -webkit-box-shadow:0 0 20px;
+        }
+    #six{
+         box-shadow: 10px 0 10px;
+         -webkit-box-shadow:10px 0px 10px;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="one" class="box"></div>
+    <div id="two" class="box"></div>
+    <div id="three" class="box"></div>
+    <div id="four" class="box"></div>
+    <div id="five" class="box"></div>
+    <div id="six" class="box"></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#first{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    font-size: 30px;
+}
+
+#second{
+    width: 50%;
+    height: 50%;
+    background-color: blanchedalmond;
+    font-size: 60%;
+}
